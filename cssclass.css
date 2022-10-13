@@ -1,0 +1,25 @@
+.body {
+    height: 100px;
+width: 500px; 
+background-color: #E9E6E6;
+margin: 10px
+}
+
+.box1 {
+height: 100px;
+width: 500px; 
+background-color: #E9E6E6;
+margin: 10px
+}
+
+.box2 {
+ background-color: #78F0B7; 
+ width: 400px;  
+ margin: 10px;
+ padding-top: 10px; 
+}
+
+.box3 {
+    background-color: #24CCDA;
+    width: 400px; 
+}

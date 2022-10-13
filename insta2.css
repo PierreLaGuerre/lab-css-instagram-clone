@@ -1,0 +1,127 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 0;
+      width: 100%;
+      min-height: 100vh;
+      background: linear-gradient(
+        to bottom,
+        #1c5380 0%,
+        #1c5380 37%,
+        white 37%,
+        white 100%
+      );
+     
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo {
+        width: 300px;
+        display: flex;
+        position: relative;
+        top: 10px;
+
+    }
+    .container1 {
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 500px;
+        padding-top: 100px;
+        line-height: 16px;
+        margin-left: 40px;
+    }
+
+    .wrapper {
+        display: flex;
+    }
+
+    .button {
+    width: 100px;
+   background-color: #1c5380;
+   font-size: large;
+   text-align: end;
+   color: #fbfbfb;
+   padding: 13px 13px;
+   position: fixed;
+   margin-top: 15px;
+   margin-left: 400px;
+   
+   background: url(images/home.png) no-repeat left;
+   display: inline-block;
+   border-radius: 4px;
+   font-weight: bold;
+   border-color: #06365f;
+   border-width: 0.5px;
+
+    }
+
+    .card {
+  text-align: left;
+ display: flex;
+ flex-direction: column;
+ padding-left: 50px;
+ background-image: url(images/frame.png);
+ background-repeat: no-repeat;
+ line-height: 8px;
+ 
+    }
+
+    .main {
+        color: #06365f;
+        font-weight: bold;
+        font-size: 30px;
+        padding-top: 20px;
+        line-height: 35px;
+    margin: 0;
+    }
+.apps {
+    display: flex;
+    padding-top: 47px;
+    padding-left: 45px;
+}
+    .apple {
+        width: 200px;
+        position: absolute;
+    }
+
+    .android {
+ width: 200px;  
+ position: relative;
+ padding-left: 220px;
+ max-height: 62px;
+
+    }
+
+footer {
+    display: flex;
+    color: #1c5380;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 800;
+    margin-left: 280px;
+    word-spacing:10px;
+    padding-top: 50px;
+}
+
+.about {
+ margin-right: 20px;
+ word-spacing: normal;
+}
+
+.trade {
+    color: grey;
+    word-spacing: 1px;
+    padding-left: 10px;
+}
